@@ -1,8 +1,8 @@
 # Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection
-[![Papers with Code: SOTA on MVTec AD (Unified Multi-Class)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38429&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38429)
-[![Papers with Code: SOTA on Real-IAD (Unified Multi-Class)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38457&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38457)
-[![Papers with Code: SOTA on VisA (Unified Multi-Class)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38444&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38444)
-[![Papers with Code: SOTA on MVTec 3D-AD (RGB+3D Fusion)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38479&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38479)
+[![Papers with Code: SOTA on MVTec AD](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38429&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38429)
+[![Papers with Code: SOTA on Real-IAD](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38457&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38457)
+[![Papers with Code: SOTA on VisA](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38444&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38444)
+[![Papers with Code: SOTA on MVTec 3D-AD](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38479&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38479)
 
 PyTorch Implementation of
 "Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection"
