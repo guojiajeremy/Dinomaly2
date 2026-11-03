@@ -78,7 +78,9 @@ class MVTecDataset(torch.utils.data.Dataset):
         tot_labels = []
         tot_types = []
 
-        defect_types = os.listdir(self.img_path)
+        # Skip files and hidden folders such as .DS_Store or .ipynb_checkpoints.
+        defect_types = [d for d in os.listdir(self.img_path)
+                        if not d.startswith('.') and os.path.isdir(os.path.join(self.img_path, d))]
 
         for defect_type in defect_types:
             if defect_type == 'good' or defect_type == 'ok':
@@ -181,7 +183,8 @@ class MVTec3DDataset(torch.utils.data.Dataset):
         tot_labels = []
         tot_types = []
 
-        defect_types = os.listdir(self.img_path)
+        defect_types = [d for d in os.listdir(self.img_path)
+                        if not d.startswith('.') and os.path.isdir(os.path.join(self.img_path, d))]
 
         for defect_type in defect_types:
             if defect_type == 'good' or defect_type == 'ok':
@@ -612,7 +615,8 @@ class MANTATinyDataset(torch.utils.data.Dataset):
         tot_labels = []
         tot_types = []
 
-        defect_types = os.listdir(self.img_path)
+        defect_types = [d for d in os.listdir(self.img_path)
+                        if not d.startswith('.') and os.path.isdir(os.path.join(self.img_path, d))]
 
         for defect_type in defect_types:
             if defect_type == 'good' or defect_type == 'ok':
@@ -685,7 +689,8 @@ class MiniDataset(torch.utils.data.Dataset):
         img_tot_paths = []
         tot_labels = []
 
-        defect_types = os.listdir(self.img_path)
+        defect_types = [d for d in os.listdir(self.img_path)
+                        if not d.startswith('.') and os.path.isdir(os.path.join(self.img_path, d))]
 
         for defect_type in defect_types:
             img_paths = glob.glob(os.path.join(self.img_path, defect_type) + "/*")
