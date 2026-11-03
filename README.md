@@ -9,7 +9,6 @@ PyTorch Implementation of
 "Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection"
 [[arxiv 2025](https://arxiv.org/abs/2510.17611)], the extended version of [Dinomaly](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf) (v1, CVPR2025)
 
-
 - **Give me a ⭐️ if you like it.**
 - This project is currently released under **Apache-2.0 License**. If your method is based on Dinomaly series, please acknowledge it in your work (papers, products, patents, competitions, etc.), preferably as a "Preliminary" section.
 - Preview version. There might be some bugs, and some config is not exactly as in the paper.
