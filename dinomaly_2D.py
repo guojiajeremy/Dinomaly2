@@ -242,7 +242,7 @@ def train(item_list, args):
                 print_fn('iter [{}/{}], loss:{:.4f}'.format(it, total_iters, np.mean(loss_list)))
                 loss_list = []
 
-    # torch.save(model.state_dict(), os.path.join(args.save_dir, args.save_name, 'model.pth'))
+    torch.save(model.state_dict(), os.path.join(args.save_dir, args.save_name, 'model.pth'))
 
     return
 
@@ -252,7 +252,7 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser(description='')
-    parser.add_argument('--data_path', type=str, default='../MPDD',
+    parser.add_argument('--data_path', type=str, default='./Dataset/mvtec_anomaly_detection',
                         help='Support: mvtec_anomaly_detection, VisA_pytorch/1cls, MPDD, BTech_Dataset_transformed, MIAD, Uni-Medical')
 
     parser.add_argument('--save_dir', type=str, default='./saved_results')
@@ -275,9 +275,9 @@ if __name__ == '__main__':
                         help='Context-aware recentering. 1 for yes, 0 for no.')
     parser.add_argument('--image_size', type=int, default=448)
     parser.add_argument('--crop_size', type=int, default=392)
-    parser.add_argument('--total_iters', type=int, default=40000)
+    parser.add_argument('--total_iters', type=int, default=10)
     parser.add_argument('--lr_decay_ratio', type=float, default=1.)
-    parser.add_argument('--cuda', type=int, default=3)
+    parser.add_argument('--cuda', type=int, default=1)
     args = parser.parse_args()
     #
     if 'mvtec' in args.data_path.lower():

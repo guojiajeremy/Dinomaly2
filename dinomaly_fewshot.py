@@ -244,7 +244,7 @@ def train(item_list, args):
                 print_fn('iter [{}/{}], loss:{:.4f}'.format(it, total_iters, np.mean(loss_list)))
                 loss_list = []
 
-    # torch.save(model.state_dict(), os.path.join(args.save_dir, args.save_name, 'model.pth'))
+    torch.save(model.state_dict(), os.path.join(args.save_dir, args.save_name, 'model.pth'))
 
     return
 
