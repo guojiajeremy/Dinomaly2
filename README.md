@@ -4,6 +4,7 @@
 [![Papers with Code: SOTA on VisA](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38444&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38444)
 [![Papers with Code: SOTA on MVTec 3D-AD](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge.svg?eval=38479&live=1)](https://paperswithcode.co/api/v1/papers/2510.17611/leaderboard-badge-link?eval=38479)
 
+
 PyTorch Implementation of
 "Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection"
 [[arxiv 2025](https://arxiv.org/abs/2510.17611)], the extended version of [Dinomaly](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf) (v1, CVPR2025)
